@@ -1,0 +1,142 @@
+/* styles.css */
+
+.dropdown-set {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 40px; 
+    justify-content: space-between;
+    gap: 30px;
+    margin: 0 50px;
+    margin-bottom: 50px;
+    height: 40px;
+}
+
+.dropdown_adjuster .Select-control{
+    width: 250px; /* Adjust width for better fit */
+    min-height: 40px;
+}
+
+
+.dropdown_adjuster .Select-value{
+    font-size: 16px;
+}
+
+.date_picker {
+    width: 300px; /* Adjust width for better fit */
+}
+
+
+.dropdown-set2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 40px; 
+    justify-content: space-around;
+    gap: 40px;
+    margin-bottom: 50px;
+    height: 140px !important;
+    font-size: 20px;
+}
+
+
+.dropdown_adjuster2 {
+    width: 400px;
+}
+
+.graph-container {
+    border-radius: 60px; 
+    overflow: hidden; 
+    background-color: transparent;
+    margin: 0 50px;
+    margin-bottom: 40px;
+}
+
+.graph-container2 {
+    border-radius: 60px; 
+    overflow: hidden; 
+    background-color: transparent;
+    margin-bottom: 40px;
+    width: 490px !important;
+}
+
+.aligner {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 0 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.statements {
+    font-size: 15px;
+    font-family: Sans-serif;
+    color: black;
+    text-align: justify;
+    width: 490px;
+    padding: 15px;
+    background-color: hwb(207 95% 1%);
+    border-radius: 5px;
+}
+
+.container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: left;
+    align-items: flex-start;
+    height: 100vh;
+    margin-left: 50px;
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+
+.tabs-wrapper {
+    background-image: url("pexels-markus-distelrath-3044473.jpg");
+    background-size: cover; /* Adjust size as needed */
+    background-repeat: no-repeat; /* Prevent tiling */ 
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+.tabs-container {
+    /* padding: 50px; */
+    padding-top: 60px !important;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 30px;
+}
+
+
+.custom-tab {
+    width: 300px !important;  /* Set desired button width */
+    border-radius: 50px;  /* Adjust for desired roundness */  /* Example background color (optional) */
+    border: none;  /* Remove default border (optional) */
+    padding: 10px 20px;  /* Adjust padding for content (optional) */
+    margin: 5px;  /* Add some margin for separation (optional) */
+    text-align: center;  /* Center text alignment (optional) */
+    font-weight: bold;
+    background: transparent;  /* Example font weight (optional) */
+}
+
+
+.tab-content {
+    background-color: transparent;
+    width: 1080px;
+    border-radius: 20px; /* Add padding to the tab content */
+}
+
+.footer1 {
+    background-color: white;
+    border-radius: 15px;
+    margin: 0 35px;
+    position: fixed;
+    bottom: 10px;
+    width: 250px;
+    height: 150px;
+    align-items: center;
+}
